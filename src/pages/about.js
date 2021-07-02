@@ -29,7 +29,6 @@ export const pageQuery = graphql`
         author
 
         bio {
-          language
           name
           description
         }

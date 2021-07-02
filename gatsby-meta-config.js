@@ -1,14 +1,14 @@
 module.exports = {
-  title: `zoomkoding.dev`,
+  title: `CANPLANE`,
   description: `zoomkoding's dev log`,
-  author: `zoomkoding`,
+  author: `canplane`,
 
   siteUrl: `https://zoomkoding.netlify.com`,
   ogImage: `https://raw.githubusercontent.com/zoomKoding/gatsby-starter-zoomkoding/master/src/assets/og-image.png`,
   social: {
-    github: `https://github.com/zoomKoding`,
+    github: `https://github.com/canplane`,
     linkedIn: `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-    email: `zoomkoding@gmail.com`,
+    email: `canplane@gmail.com`,
   },
   comments: {
     utterances: {
@@ -19,9 +19,8 @@ module.exports = {
 
   // metadata for bio
   bio: {
-    language: `en`, // 'en', 'ko'
-    name: 'zoomkoding',
-    description: ['making something great', 'who enjoys learning', 'interested in UI/UX', 'who like to write'],
+    name: 'canplane',
+    description: `I'm a developer interested in UI/UX`,
   },
 
   // metadata for About Page

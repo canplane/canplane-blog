@@ -60,7 +60,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         bio {
-          language
           name
           description
         }
