@@ -1,18 +1,18 @@
 module.exports = {
   title: `CANPLANE`,
-  description: `zoomkoding's dev log`,
+  description: `canplane's dev log`,
   author: `canplane`,
 
   siteUrl: `https://zoomkoding.netlify.com`,
   ogImage: `https://raw.githubusercontent.com/zoomKoding/gatsby-starter-zoomkoding/master/src/assets/og-image.png`,
   social: {
     github: `https://github.com/canplane`,
-    linkedIn: `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
+    linkedIn: `https://www.linkedin.com/in/sanghoon-lee-aab376216`,
     email: `canplane@gmail.com`,
   },
   comments: {
     utterances: {
-      repo: `zoomkoding/gatsby-starter-zoomkoding`,
+      repo: `canplane/canplane.com`,
     },
   },
   ga: 'UA-134826755-3', // Google Analytics Tracking ID
