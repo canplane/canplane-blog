@@ -21,7 +21,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="CANPLANE" />
       <Bio bio={bio} social={social} />
       <Tabs className={'tabs'} value={tabIndex} onChange={onTabIndexChange} tabs={categories} />
       <PostCardsColumn
