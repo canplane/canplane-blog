@@ -20,7 +20,7 @@ module.exports = {
   // metadata for bio
   bio: {
     name: 'canplane',
-    description: `I'm a developer interested in UI/UX.`,
+    description: `I'm a technical artist interested in EE/CS & UI/UX.`,
   },
 
   // metadata for About Page
