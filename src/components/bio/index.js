@@ -9,7 +9,7 @@ const Bio = ({ bio, social }) => {
   return (
     <div className="bio-wrapper">
       <div className="bio">
-        <div className="introduction english">
+        <div className="introduction">
           <p className="title">
             Hello,
             <br />
@@ -32,7 +32,7 @@ const Bio = ({ bio, social }) => {
             />
           </div>
         </div>
-        <img className="svg" alt="logo" src={authorImage} />
+        <img className="logo" alt="logo" src={authorImage} />
       </div>
     </div>
   );
