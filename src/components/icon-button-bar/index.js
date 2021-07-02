@@ -8,6 +8,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import AndroidIcon from '@material-ui/icons/Android';
 import AppleIcon from '@material-ui/icons/Apple';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import InstagramIcon from '@material-ui/icons/instagram';
 
 const IconButtonBar = ({
   style = {
@@ -32,6 +33,8 @@ const IconButtonBar = ({
         return <EmailIcon style={style} />;
       case 'linkedIn':
         return <LinkedInIcon style={style} />;
+      case 'instagram':
+        return <InstagramIcon style={style} />;
       default: 
         return <></>
     }

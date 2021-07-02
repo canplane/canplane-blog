@@ -7,6 +7,7 @@ module.exports = {
   ogImage: `https://raw.githubusercontent.com/zoomKoding/gatsby-starter-zoomkoding/master/src/assets/og-image.png`,
   social: {
     github: `https://github.com/canplane`,
+    instagram: `https://instagram.com/canplane`,
     linkedIn: `https://www.linkedin.com/in/sanghoon-lee-aab376216`,
     email: `canplane@gmail.com`,
   },
