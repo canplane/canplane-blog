@@ -10,8 +10,7 @@
 
   @include content-horizontal-padding;
 
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif,
-    Apple Color Emoji, Segoe UI Emoji;
+  font-family: $font-family;
 
   .posts-page-title {
     width: fit-content;
