@@ -42,11 +42,11 @@ const IconButtonBar = ({
       {Object.keys(links).map((link, index) => {
         return (
           links[link] && (
-            <Tooltip key={index} title={link} arrow>
+            /*<Tooltip key={index} title={link} arrow>*/
               <IconButton size="small" href={`${link === 'email' ? `mailto:` : ``}${links[link]}`}>
                 {IconPicker(link)}
               </IconButton>
-            </Tooltip>
+            /*</Tooltip>*/
           )
         );
       })}

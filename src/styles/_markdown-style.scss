@@ -1053,9 +1053,9 @@
 // override some settings of prismjs
 code[class*=language-], pre[class*=language-] {
   font-family: Menlo, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace !important;
-  font-size: 0.85em !important;
+  font-size: 13px !important;
 }
 
 :not(pre) > code[class*="language-"] {
-  padding: 0.2em 0.4em !important;
+  padding: 3px 5px !important;
 }

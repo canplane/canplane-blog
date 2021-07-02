@@ -26,7 +26,7 @@ const Bio = ({ bio, social }) => {
             <IconButtonBar
               links={social}
               style={{
-                fontSize: '30px',
+                fontSize: '24px',
                 color: 'rgba(0, 0, 0, 0.54)',
               }}
             />
