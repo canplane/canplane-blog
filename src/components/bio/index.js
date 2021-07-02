@@ -11,12 +11,12 @@ const Bio = ({ bio, social }) => {
       <div className="bio">
         <div className="introduction">
           <p className="title">
-            Hello,
+            안녕하세요,
             <br />
-            my name is
+            제 이름은
             <br />
             <strong>{bio?.name}</strong>
-            .<br />
+            입니다.<br />
           </p>
           <p className="description">
             {bio?.description}

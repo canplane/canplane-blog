@@ -9,13 +9,16 @@ const NotFoundPage = () => (
     <div style={{
       marginTop: '80px',
       textAlign: 'center',
-      fontSize: '20px',
     }}>
       <h1 style={{
-        fontSize: '64px',
-        fontWeight: 700,
+        fontSize: '60px',
+        fontWeight: 600,
       }}>404</h1>
-      <p>Not Found</p>
+      <p style={{
+        marginTop: '12px',
+        fontSize: '20px',
+        fontWeight: 300,
+      }}>Not Found</p>
     </div>
   </Layout>
 );
