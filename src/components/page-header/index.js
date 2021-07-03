@@ -4,7 +4,7 @@ import React from 'react';
 
 import './style.scss';
 
-import AuthorIcon from '../../assets/author-icon';
+// import AuthorIcon from '../../assets/author-icon';
 
 const PageHeader = ({ siteTitle }) => (
   <header className="page-header-wrapper">
