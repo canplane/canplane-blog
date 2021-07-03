@@ -4,12 +4,17 @@ import React from 'react';
 
 import './style.scss';
 
+import AuthorIcon from '../../assets/author-icon';
+
 const PageHeader = ({ siteTitle }) => (
   <header className="page-header-wrapper">
     <div className="page-header">
       <div className="front-section">
         <Link className="link" to="/">
-          {siteTitle}
+          <div className="arthor">
+            {/* <AuthorIcon /> */}
+            {siteTitle}
+          </div>
         </Link>
       </div>
       <div className="trailing-section">
