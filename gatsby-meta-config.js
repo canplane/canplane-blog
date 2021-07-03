@@ -3,7 +3,7 @@ module.exports = {
   description: `canplane's dev log`,
   author: `canplane`,
 
-  siteUrl: `https://canplane-dev.netlify.com`,
+  siteUrl: `https://canplane.netlify.com`,
   ogImage: `https://github.com/canplane/canplane.com/blob/master/src/assets/op-image.png?raw=true`,
   social: {
     github: `https://github.com/canplane`,
