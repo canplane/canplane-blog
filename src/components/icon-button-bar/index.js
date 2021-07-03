@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconButton, Tooltip } from '@material-ui/core';
+import { IconButton } from '@material-ui/core';
 
 import EmailIcon from '@material-ui/icons/Email';
 import DescriptionIcon from '@material-ui/icons/Description';
@@ -45,11 +45,9 @@ const IconButtonBar = ({
       {Object.keys(links).map((link, index) => {
         return (
           links[link] && (
-            /*<Tooltip key={index} title={link} arrow>*/
-              <IconButton size="small" href={`${link === 'email' ? `mailto:` : ``}${links[link]}`}>
-                {IconPicker(link)}
-              </IconButton>
-            /*</Tooltip>*/
+            <IconButton size="small" href={`${link === 'email' ? `mailto:` : ``}${links[link]}`}>
+              {IconPicker(link)}
+            </IconButton>
           )
         );
       })}
