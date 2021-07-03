@@ -49,10 +49,19 @@ strong {
       }
     }
 
+    position: relative;
+
     .logo {
-      display: none;
+      position: absolute;
+      right: -8px;
+      top: -40px;
+      width: 120px;
+
+      //display: none;
 
       @include md {
+        position: static;
+
         display: block;
         width: 250px;
       }
