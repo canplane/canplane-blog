@@ -1,6 +1,6 @@
 module.exports = {
   title: `canplane`,
-  description: `canplane's dev log`,
+  description: ``,
   author: `canplane`,
 
   siteUrl: `https://canplane.netlify.com`,
