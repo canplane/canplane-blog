@@ -4,7 +4,7 @@ module.exports = {
   author: `canplane`,
 
   siteUrl: `https://zoomkoding.netlify.com`,
-  ogImage: `https://raw.githubusercontent.com/zoomKoding/gatsby-starter-zoomkoding/master/src/assets/og-image.png`,
+  ogImage: `https://github.com/canplane/canplane.com/blob/master/src/assets/op-image.png?raw=true`,
   social: {
     github: `https://github.com/canplane`,
     instagram: `https://instagram.com/canplane`,
