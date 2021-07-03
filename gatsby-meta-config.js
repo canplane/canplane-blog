@@ -1,5 +1,5 @@
 module.exports = {
-  title: `canplane-dev`,
+  title: `canplane`,
   description: `canplane's dev log`,
   author: `canplane`,
 
