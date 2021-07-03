@@ -1,9 +1,9 @@
 module.exports = {
-  title: `CANPLANE`,
+  title: `canplane-dev`,
   description: `canplane's dev log`,
   author: `canplane`,
 
-  siteUrl: `https://zoomkoding.netlify.com`,
+  siteUrl: `https://canplane-dev.netlify.com`,
   ogImage: `https://github.com/canplane/canplane.com/blob/master/src/assets/op-image.png?raw=true`,
   social: {
     github: `https://github.com/canplane`,
@@ -16,7 +16,8 @@ module.exports = {
       repo: `canplane/canplane.com`,
     },
   },
-  ga: 'UA-134826755-3', // Google Analytics Tracking ID
+  ga: 'UA-201251923-1', // Google Analytics Tracking ID
+  // setting guide - https://devsungyeon.github.io/github%20blog/Google-analytics/
 
   // metadata for bio
   bio: {
