@@ -15,8 +15,8 @@ export default ({ data }) => {
     <Layout>
       <SEO title="About" />
       <Bio bio={bio} social={social} />
-      <TimeStampsSection timestamps={timestamps} />
-      <ProjectsSection projects={projects} />
+      {/*<TimeStampsSection timestamps={timestamps} />
+      <ProjectsSection projects={projects} />*/}
     </Layout>
   );
 };

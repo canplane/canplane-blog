@@ -23,7 +23,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title="canplane" />
-      <Bio bio={bio} social={social} />
+      {/*<Bio bio={bio} social={social} />*/}
       <Tabs className={'tabs'} value={tabIndex} onChange={onTabIndexChange} tabs={categories} />
       <PostCardsColumn
         posts={
