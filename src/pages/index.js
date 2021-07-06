@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import Bio from '../components/bio';
+// import Bio from '../components/bio';
 import PostCardsColumn from '../components/post-cards-column';
 import Post from '../models/post';
 import Tabs from '../components/tabs';
@@ -12,7 +12,7 @@ import { getSortedCategoriesByCount } from '../utils/helpers';
 
 export default ({ data }) => {
   const posts = data.allMarkdownRemark.edges.map(({ node }) => new Post(node));
-  const { bio, social } = data.site.siteMetadata;
+  // const { bio, social } = data.site.siteMetadata;
   const categories = ['All', ...getSortedCategoriesByCount(posts)];
   const [tabIndex, setTabIndex] = useState(0);
 
@@ -23,7 +23,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title="canplane" />
-      {/*<Bio bio={bio} social={social} />*/}
+      {/* <Bio bio={bio} social={social} /> */}
       <Tabs className={'tabs'} value={tabIndex} onChange={onTabIndexChange} tabs={categories} />
       <PostCardsColumn
         posts={

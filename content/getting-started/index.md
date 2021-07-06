@@ -7,6 +7,9 @@ tags: tutorial
 categories: tutorial
 ---
 
+```toc
+```
+
 ## 👋 Introduction
 
 This is a blog theme created for developers who want to create a pretty, clean and search engine friendly development blog.🏅  
@@ -221,8 +224,3 @@ If you want the table of contents to be displayed on the right side of the artic
 
     ```toc
     ```
-
-
-
-```toc
-```

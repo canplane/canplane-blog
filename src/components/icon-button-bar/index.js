@@ -45,7 +45,7 @@ const IconButtonBar = ({
       {Object.keys(links).map((link, index) => {
         return (
           links[link] && (
-            <IconButton size="small" href={`${link === 'email' ? `mailto:` : ``}${links[link]}`}>
+            <IconButton key={index} size="small" href={`${link === 'email' ? `mailto:` : ``}${links[link]}`}>
               {IconPicker(link)}
             </IconButton>
           )

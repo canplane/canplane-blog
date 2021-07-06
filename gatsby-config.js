@@ -25,7 +25,12 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
-    `gatsby-theme-material-ui`,
+    {
+      resolve: `gatsby-theme-material-ui`,
+      options: {
+        webFontsConfig: null,
+      },
+    },
     `gatsby-plugin-offline`,
     `gatsby-plugin-advanced-sitemap`,
     {

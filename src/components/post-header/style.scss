@@ -7,7 +7,7 @@
   width: 100%;
   @include content-horizontal-padding;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 0; // 40px;
   word-break: keep-all;
 
   .post-header {

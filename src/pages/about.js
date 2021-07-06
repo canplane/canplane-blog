@@ -4,19 +4,21 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Bio from '../components/bio';
-import TimeStampsSection from '../components/timestamps-section';
-import ProjectsSection from '../components/projects-section';
+// import TimeStampsSection from '../components/timestamps-section';
+// import ProjectsSection from '../components/projects-section';
 
 export default ({ data }) => {
   const metaData = data.site.siteMetadata;
-  const { bio, social, about } = metaData;
-  const { timestamps, projects } = about;
+  const { bio, social/*, about */} = metaData;
+  // const { timestamps, projects } = about;
   return (
     <Layout>
       <SEO title="About" />
       <Bio bio={bio} social={social} />
-      {/*<TimeStampsSection timestamps={timestamps} />
-      <ProjectsSection projects={projects} />*/}
+      {/*
+      <TimeStampsSection timestamps={timestamps} />
+      <ProjectsSection projects={projects} />
+      */}
     </Layout>
   );
 };

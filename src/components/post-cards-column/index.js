@@ -11,7 +11,7 @@ const PostCardsColumn = ({ posts, moreUrl }) => {
         {posts.map((post, index) => (
           <PostCard key={index} post={post} />
         ))}
-        {posts.length === 4 && (
+        {posts.length === 6 && (
           <Button
             className="more-post-cards-button"
             href={moreUrl}

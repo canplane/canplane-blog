@@ -1,5 +1,5 @@
 ---
-emoji: 🤓
+# emoji: 🤓
 title: Codeforces Round 605 (Div. 3) My Unofficial Editorial
 date: '2019-12-13 02:00:00'
 author: zoomkoding
