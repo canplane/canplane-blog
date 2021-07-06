@@ -1,6 +1,6 @@
 ---
 emoji: 🤓
-title: Codeforces Round 603 (Div. 2) Broken Editorial
+title: \# Codeforces Round 603 (Div. 2) Broken Editorial
 date: '2019-11-30 02:00:00'
 author: zoomkoding
 tags: codeforces
