@@ -7,8 +7,8 @@ module.exports = {
   ogImage: `https://github.com/canplane/canplane.com/blob/master/src/assets/op-image.png?raw=true`,
   social: {
     github: `https://github.com/canplane`,
-    instagram: `https://instagram.com/canplane`,
-    linkedIn: `https://www.linkedin.com/in/sanghoon-lee-aab376216`,
+    // instagram: `https://instagram.com/canplane`,
+    // linkedIn: `https://www.linkedin.com/in/sanghoon-lee-aab376216`,
     email: `canplane@gmail.com`,
   },
   comments: {
@@ -26,7 +26,7 @@ module.exports = {
   },
 
   // metadata for About Page
-  about: {
+  /* about: {
     timestamps: [
       {
         date: '2018.07 ~ 2018.12',
@@ -144,4 +144,5 @@ module.exports = {
       },
     ],
   },
+  */
 };

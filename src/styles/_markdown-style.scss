@@ -623,7 +623,8 @@
 }
 
 .markdown > :first-child:not(.table-of-contents),
-.markdown .table-of-contents + * {
+.markdown > .table-of-contents + *,
+.markdown > .table-of-contents:not(:first-child) {
   margin-top: 40px !important; // 0 !important;
 }
 
@@ -996,27 +997,34 @@
 
 // added for toc
 .markdown .table-of-contents {
-  @media (max-width: $screen-xl-min) {
-    // display: none;
-    position: static;
+  @include xl {
+    position: fixed;
+    top: 75px;
+    right: 0px;
 
-    width: 100%;
-    padding: 24px 0;
+    width: 320px;
+    padding: 0;
+  }
+  width: 100%;
+  padding: 24px 0;
 
-    border-bottom: 1px solid #eaecef;
-    &:not(:first-child) {
-      border-top: 1px solid #eaecef;
+  &:not(:last-child) {
+    @include xl {
+      border: none;
     }
+    border-bottom: 1px solid #eaecef;
+  }
+  &:not(:first-child) {
+    @include xl {
+      border: none;
+    }
+    border-top: 1px solid #eaecef;
   }
 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  width: 340px;
-  position: fixed;
-  top: 75px;
-  right: 0px;
 
   // &::before {
   //   padding-left: 35px;
@@ -1025,6 +1033,10 @@
   //   font-size: 15px;
   //   margin-bottom: 3px;
   // }
+
+  & > ul {
+    padding-left: 1em;
+  }
 
   ul {
     // +
