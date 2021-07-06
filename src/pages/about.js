@@ -40,6 +40,27 @@ export const pageQuery = graphql`
           github
           email
         }
+      }
+    }
+  }
+`;
+/*graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        description
+        author
+
+        bio {
+          name
+          description
+        }
+
+        social {
+          github
+          email
+        }
 
         about {
           timestamps {
@@ -71,4 +92,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`;*/
