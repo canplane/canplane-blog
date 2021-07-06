@@ -14,10 +14,8 @@ const Bio = ({ bio, social }) => {
           <p className="title">
             안녕하세요,
             <br />
-            제 이름은
-            <br />
             <strong>{bio?.name}</strong>
-            입니다.<br />
+            이라고 합니다.<br />
           </p>
           <p className="description">
             {bio?.description}
