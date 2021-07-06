@@ -182,6 +182,3 @@ int main(){
 ```
 
 **If you find better ways to solve in my code or have any questions, leave a comment!**
-
-```toc
-```

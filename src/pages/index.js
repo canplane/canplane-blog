@@ -24,17 +24,21 @@ export default ({ data }) => {
     <Layout>
       <SEO title="canplane" />
       {/* <Bio bio={bio} social={social} /> */}
-      <Tabs className={'tabs'} value={tabIndex} onChange={onTabIndexChange} tabs={categories} />
-      <PostCardsColumn
-        posts={
-          tabIndex === 0
-            ? posts.slice(0, 4)
-            : posts
-                .filter((post, index) => post.categories.includes(categories[tabIndex]))
-                .slice(0, 4)
-        }
-        moreUrl={`posts/${tabIndex === 0 ? '' : categories[tabIndex]}`}
-      />
+      <div className="posts-page-body-wrapper"> {/** */}
+        <div className="posts-page-body"> {/** */}
+          <Tabs className={'tabs'} value={tabIndex} onChange={onTabIndexChange} tabs={categories} />
+          <PostCardsColumn
+            posts={
+              tabIndex === 0
+                ? posts.slice(0, 4)
+                : posts
+                    .filter((post, index) => post.categories.includes(categories[tabIndex]))
+                    .slice(0, 4)
+            }
+            moreUrl={`posts/${tabIndex === 0 ? '' : categories[tabIndex]}`}
+          />
+        </div> {/** */}
+      </div> {/** */}
     </Layout>
   );
 };

@@ -1,0 +1,13 @@
+// +
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.utterances-wrapper {
+  padding: 0 11px; // because of 4px padding left/right in iframe (15 - 4 = 11)
+  
+  .utterances {
+    width: 100%;
+    max-width: $content-max-width + 8px; // 4 * 2
+  }
+}
+//

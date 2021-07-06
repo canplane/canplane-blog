@@ -1,3 +1,4 @@
+@use '../../styles/variables' as *;
 @use '../../styles/mixins' as *;
 
 .page-footer-wrapper {
@@ -8,6 +9,10 @@
   height: 62px;
   margin-top: auto;
   margin-bottom: 10px;
+
+  @media (max-width: $screen-xl-min) {
+    @include content-horizontal-padding;
+  }
   padding: 0 24px; // @include content-horizontal-padding;
 
   .page-footer {

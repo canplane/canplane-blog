@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 
+import './style.scss';
+
 const src = 'https://utteranc.es/client.js';
 const branch = 'master';
 
@@ -26,5 +28,9 @@ export const Utterances = ({ repo }) => {
     
   }, [repo, rootElm]);
 
-  return <div className="utterances" ref={rootElm} />;
+  return (
+    <div className="utterances-wrapper">
+      <div className="utterances" ref={rootElm} />
+    </div>
+  );
 };
