@@ -21,8 +21,8 @@ module.exports = {
 
   // metadata for bio
   bio: {
-    name: 'canplane',
-    description: `I'm a technical artist interested in EE/CS & UI/UX.`,
+    name: '이상훈',
+    description: `전자공학과 전산학, UI/UX 디자인에 관심이 많습니다.`, // `I'm a technical artist interested in EE/CS & UI/UX.`,
   },
 
   // metadata for About Page
