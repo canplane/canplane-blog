@@ -85,7 +85,7 @@ module.exports = {
 For `description`, you can introduce yourself by adding multiple phrases. If you want to **add your Memoji**, replace the video file named `src/assets/author.mp4`.
 
 
-```js
+```js{numberLines: true}{1,4-6}
 module.exports = {
     ...
 

@@ -1107,16 +1107,18 @@ code[class*=language-], pre[class*=language-] {
   border-left: 0.25em solid #f99;
 }
 
-.gatsby-highlight {
+.gatsby-highlight[data-language] {
   position: relative;
 
-  pre[class*="language-"]::before {
+  &:not([data-language="text"])::before {
+    content: attr(data-language);
     background: white;
     color: black;
     z-index: 1;
 
+    font-family: Menlo, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace !important;
+    font-size: 11px;
     border-radius: 0 0 0.25rem 0.25rem;
-    font-size: 12px;
     letter-spacing: 0.025rem;
     padding: 0.1rem 0.5rem;
     position: absolute;
@@ -1126,12 +1128,9 @@ code[class*=language-], pre[class*=language-] {
     top: 0;
   }
 
-  // languages
-  pre[class*="language-javascript"]::before {
+  // custom languages
+  &[data-language="javascript"]::before {
     content: "js";
-    background: #f7df1e;
-  }
-  pre[class*="language-cpp"]::before {
-    content: "cpp";
+    // background: #f7df1e;
   }
 }
