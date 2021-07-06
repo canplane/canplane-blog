@@ -17,7 +17,7 @@ strong {
     display: grid;
     justify-content: center;
 
-    @include md {
+    @include lg {
       grid-template-columns: auto auto;
       grid-gap: 60px;
     }
