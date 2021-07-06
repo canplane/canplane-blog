@@ -39,6 +39,8 @@ strong {
     */
 
     .introduction {
+      font-weight: 300;
+
       display: flex;
       flex-direction: column;
       word-break: keep-all;
@@ -52,7 +54,6 @@ strong {
       line-height: 1.2;
 
       .description {
-        font-weight: 300;
         margin-top: 8px;
         font-size: 20px;
       }
@@ -61,11 +62,6 @@ strong {
         margin-top: 20px;
         display: flex;
       }
-
-      // +
-      flex: 1;
-      padding-left: 0px;
-      //
     }
 
     position: relative;

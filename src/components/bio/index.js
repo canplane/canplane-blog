@@ -12,12 +12,12 @@ const Bio = ({ bio, social }) => {
         <img className="logo" alt="logo" src={authorImage} />
         <div className="introduction">
           <p className="title">
-            Hello,
+            안녕하세요,
             <br />
-            my name is
+            제 이름은
             <br />
-            <strong>{bio?.name}</strong>
-            .<br />
+            <strong>이상훈</strong>
+            이라고 합니다.<br />
           </p>
           <p className="description">
             {bio?.description}
