@@ -4,7 +4,7 @@ import React from 'react';
 
 import './style.scss';
 
-// import AuthorIcon from '../../assets/author-icon';
+import AuthorIcon from '../../assets/author-icon';
 
 const PageHeader = ({ siteTitle }) => (
   <header className="page-header-wrapper">
@@ -12,7 +12,7 @@ const PageHeader = ({ siteTitle }) => (
       <div className="front-section">
         <Link className="link" to="/">
           <div className="arthor">
-            {/* <AuthorIcon /> */}
+            <AuthorIcon />
             {siteTitle}
           </div>
         </Link>
