@@ -30,7 +30,7 @@ Otherwise, the middle one doesn't have to move and the other two get closer to t
 
 ### Code
 
-```cpp
+```cpp{numberLines: true}
 #include <cstdio>
 #include <algorithm>
 using namespace std;
@@ -57,6 +57,20 @@ int main(){
         printf("%lld\n", (d1 + d2) * 2);
     }
 }
+```
+
+```javascript{numberLines: true}{1,4-6}
+// In your gatsby-config.js
+plugins: [
+    {
+        resolve: `gatsby-transformer-remark`,
+        options: {
+            plugins: [
+                `gatsby-remark-prismjs`,
+            ],
+        },
+    },
+]
 ```
 
 <br>

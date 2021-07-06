@@ -1082,11 +1082,56 @@
 }
 
 // override some settings of prismjs
+
 code[class*=language-], pre[class*=language-] {
   font-family: Menlo, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace !important;
   font-size: 13px !important;
+
+  .line-numbers-rows {
+    padding: 13px 0 13px 13px;
+    border: none;
+  }
 }
 
 :not(pre) > code[class*="language-"] {
   padding: 3px 5px !important;
+}
+
+.gatsby-highlight-code-line {
+  background-color: #1b1f23;
+  display: block;
+  margin-right: -1em;
+  margin-left: -1em;
+  padding-right: 1em;
+  padding-left: 0.75em;
+  border-left: 0.25em solid #f99;
+}
+
+.gatsby-highlight {
+  position: relative;
+
+  pre[class*="language-"]::before {
+    background: white;
+    color: black;
+    z-index: 1;
+
+    border-radius: 0 0 0.25rem 0.25rem;
+    font-size: 12px;
+    letter-spacing: 0.025rem;
+    padding: 0.1rem 0.5rem;
+    position: absolute;
+    right: 1rem;
+    text-align: right;
+    text-transform: uppercase;
+    top: 0;
+  }
+
+  // languages
+  pre[class*="language-javascript"]::before {
+    content: "js";
+    background: #f7df1e;
+  }
+  pre[class*="language-cpp"]::before {
+    content: "cpp";
+  }
 }
