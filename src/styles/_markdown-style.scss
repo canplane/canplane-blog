@@ -996,6 +996,7 @@
 }
 
 // added for toc
+
 .markdown .table-of-contents {
   @include xl {
     position: fixed;
@@ -1066,6 +1067,7 @@
 }
 
 // added for image resizing
+
 .markdown .gatsby-resp-image-wrapper {
   display: flex !important;
   justify-content: center !important;
