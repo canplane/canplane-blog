@@ -7,4 +7,4 @@ tags: tutorial
 categories: tutorial
 ---
 
-😀
+2021-07-07 블로그 시작 😀
