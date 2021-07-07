@@ -1085,9 +1085,17 @@
 
 // override some settings of prismjs
 
-code[class*=language-], pre[class*=language-] {
+code[class*="language-"], pre[class*="language-"] {
+  background: #f6f6f6 !important;
+  color: #24292e !important;
+
   font-family: $font-family-code !important;
   font-size: 13px !important;
+  text-shadow: unset !important;
+
+  .token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string {
+    background: unset !important;
+   }
 
   .line-numbers-rows {
     padding: 13px 0 13px 13px;
@@ -1096,17 +1104,18 @@ code[class*=language-], pre[class*=language-] {
 }
 
 :not(pre) > code[class*="language-"] {
+  background: #e4e6e8 !important;
   padding: 3px 5px !important;
 }
 
 .gatsby-highlight-code-line {
-  background-color: #1b1f23;
+  background-color: rgba(0, 0, 0, .075); // #e4e6e8; // #1b1f23;
   display: block;
   margin-right: -1em;
   margin-left: -1em;
   padding-right: 1em;
   padding-left: 0.75em;
-  border-left: 0.25em solid #f99;
+  border-left: 0.25em solid rgba(0, 0, 0, .3); // #9199a1; // #f99;
 }
 
 .gatsby-highlight[data-language] {
@@ -1115,11 +1124,11 @@ code[class*=language-], pre[class*=language-] {
   &:not([data-language="text"])::before {
     content: attr(data-language);
     background: white;
-    color: black;
+    color: #24292e;
     z-index: 1;
 
     font-family: $font-family-code !important;
-    font-size: 11px;
+    font-size: 10px;
     border-radius: 0 0 0.25rem 0.25rem;
     letter-spacing: 0.025rem;
     padding: 0.1rem 0.5rem;

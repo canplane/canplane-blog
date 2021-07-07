@@ -26,6 +26,7 @@ export default ({ data }) => {
   );
 };
 
+// 원래는 frontmatter에서 date(formatString: "MMMM DD, YYYY")
 export const pageQuery = graphql`
   query($slug: String, $nextSlug: String, $prevSlug: String) {
     cur: markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -33,12 +34,11 @@ export const pageQuery = graphql`
       html
       excerpt(pruneLength: 350, truncate: true)
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY[년] M[월] D[일]")
         title
         categories
         author
         emoji
-        
       }
       fields {
         slug
@@ -49,7 +49,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY[년] M[월] D[일]")
         title
         categories
         author
@@ -64,7 +64,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY[년] M[월] D[일]")
         title
         categories
         author

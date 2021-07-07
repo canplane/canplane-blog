@@ -96,7 +96,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             frontmatter {
               categories
               title
-              date(formatString: "MMMM DD, YYYY")
+              date(formatString: "YYYY[년] M[월] D[일]")
             }
           }
           next {
