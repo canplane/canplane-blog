@@ -53,7 +53,7 @@ export const pageQuery = graphql`
           frontmatter {
             categories
             title
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "YYYY[년] M[월] D[일]")
           }
           fields {
             slug
