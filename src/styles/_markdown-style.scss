@@ -1144,4 +1144,7 @@ code[class*="language-"], pre[class*="language-"] {
     content: "js";
     // background: #f7df1e;
   }
+  &[data-language="cpp"]::before {
+    content: "c++";
+  }
 }
